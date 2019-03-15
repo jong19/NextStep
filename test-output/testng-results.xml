@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2017-11-29T11:28:01Z" name="Default suite" finished-at="2017-11-29T11:29:10Z" duration-ms="69190">
+    <groups>
+    </groups>
+    <test started-at="2017-11-29T11:28:01Z" name="Default test" finished-at="2017-11-29T11:29:10Z" duration-ms="69190">
+      <class name="test.NextStepTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.NextStepTest@60015ef5]" started-at="2017-11-29T19:28:01Z" name="setUp" finished-at="2017-11-29T19:28:17Z" duration-ms="16705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="register()[pri:1, instance:test.NextStepTest@60015ef5]" started-at="2017-11-29T19:28:17Z" name="register" finished-at="2017-11-29T19:28:44Z" duration-ms="26150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:2, instance:test.NextStepTest@60015ef5]" started-at="2017-11-29T19:28:44Z" name="login" data-provider="loginCredits" finished-at="2017-11-29T19:29:09Z" duration-ms="25286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newtester5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[%pandamanuser1234%]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.NextStepTest@60015ef5]" started-at="2017-11-29T19:29:09Z" name="closeBrowser" finished-at="2017-11-29T19:29:10Z" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.NextStepTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
